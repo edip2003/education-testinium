@@ -33,7 +33,7 @@ public class Main {
         int mult=firstNum*secondNum;
         System.out.println("Mult:"+mult);
         if (mult>5000||sum<4000){
-            System.out.println("Koşul sağlandı :"+mult);
+            System.out.println("Koşul sağlandı  :"+mult);
 
         }
 
