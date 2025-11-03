@@ -1,41 +1,13 @@
-import java.util.Scanner;
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+void main() {
+    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+    // to see how IntelliJ IDEA suggests fixing it.
+    IO.println(String.format("Hello and welcome1!"));
 
-public class Main {
-    public static void main(String[] args) {
-
-       /* // Birinci Çalışma
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("Kullnaıcı adını giriniz :");
-        String userName =scanner.nextLine();
-        System.out.println("Şifreyi Giriniz: ");
-        String password =scanner.nextLine();
-        if ("admin".equals(userName)&&"1234".equals(password)){
-            System.out.println("Giriş Başarılı!!");
-        }else{
-            System.out.println("Hatalı Giriş!");
-        }*/
-
-        // İkinci Çalışma
-        twoNumber();
-
-
-
-    }
-    // İkinci Çalışma
-    public static void twoNumber(){
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("First Number:");
-        int firstNum=scanner.nextInt();
-        System.out.println("Second Number:");
-        int secondNum=scanner.nextInt();
-        int sum =firstNum+secondNum;
-        System.out.println("Sum :"+sum);
-        int mult=firstNum*secondNum;
-        System.out.println("Mult:"+mult);
-        if (mult>5000||sum<4000){
-            System.out.println("Koşul sağlandı  :"+mult);
-
-        }
-
+    for (int i = 1; i <= 5; i++) {
+        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+        IO.println("i = " + i);
     }
 }
