@@ -1,7 +1,16 @@
+import model.constuctor.Car;
+import model.polimorfisim.AreaCalculate;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Car car=new Car();
+        Car car1=new Car(1,2020,"BMW","red");
+        Car car2=new Car(2,"BMW","red");
+        car.setModel("mercedes");
+
+
 
 
         Scanner scanner = new Scanner(System.in);
@@ -15,6 +24,7 @@ public class Main {
             System.out.println("Hatalı Giriş!");
 
         }
+
 
         sum();
         multipleArray();
@@ -52,4 +62,6 @@ public class Main {
             }
         }
     }
+
+
 }
